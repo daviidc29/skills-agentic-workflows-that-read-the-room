@@ -4,6 +4,7 @@ on:
   schedule: daily
   workflow_dispatch:
 engine: copilot
+model: gpt-4.1
 network:
   allowed:
     - github.blog

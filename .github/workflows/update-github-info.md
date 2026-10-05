@@ -3,9 +3,6 @@ name: update-github-info
 on:
   schedule: daily
   workflow_dispatch:
-permissions:
-  contents: write
-  pull-requests: write
 engine: copilot
 network:
   allowed:

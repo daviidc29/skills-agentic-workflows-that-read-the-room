@@ -4,8 +4,8 @@ on:
   schedule: daily
   workflow_dispatch:
 permissions:
-  contents: read
-  pull-requests: read
+  contents: write
+  pull-requests: write
 engine: copilot
 network:
   allowed:
